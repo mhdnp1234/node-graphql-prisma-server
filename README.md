@@ -7,7 +7,7 @@ This is a boilerplate code for graphQL server with Prisma for binding with datab
 Node version 8.0.0 + 
 ```bash
 $ npm install -g prisma
-# npm install -g graphql-cli
+$ npm install -g graphql-cli
 ```
 you should have a knowledge of [graphQL Schema Defination Language](https://www.prisma.io/blog/graphql-sdl-schema-definition-language-6755bcb9ce51/) 
 
@@ -26,7 +26,7 @@ it will print output url like following
 https://eu1.prisma.sh/publica-graytracker-771/hackernews-node/dev
 ```
 assign that url to endpoint variable in database/prisma.yml and src/index.js file 
-```js
+```bash
 endpoint: https://eu1.prisma.sh/publica-graytracker-771/hackernews-node/dev
 ```
 Note: If you ever lose the endpoint, you can get access to it again by running 'prisma info' in the terminal.
